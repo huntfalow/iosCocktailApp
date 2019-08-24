@@ -9,12 +9,19 @@
 import UIKit
 
 class SearchViewController: UIViewController {
+    
+    let cocktailInfoController = CocktailInfoController()
+    @IBOutlet weak var descriptionLabel: UILabel!
+    @IBOutlet weak var naamLabel: UILabel!
 
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
-
-
+        
+        cocktailInfoController.fetchPhotoInfo { (WebsiteDescription) in
+       print("test")
+        }
+   
 }
-
+}
