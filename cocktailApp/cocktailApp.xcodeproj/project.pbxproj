@@ -8,40 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		BF68D9272311755A00DB9E46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF68D9262311755A00DB9E46 /* AppDelegate.swift */; };
-		BF68D9292311755A00DB9E46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF68D9282311755A00DB9E46 /* ViewController.swift */; };
+		BF68D9292311755A00DB9E46 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF68D9282311755A00DB9E46 /* SearchViewController.swift */; };
 		BF68D92C2311755A00DB9E46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF68D92A2311755A00DB9E46 /* Main.storyboard */; };
 		BF68D92E2311755B00DB9E46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF68D92D2311755B00DB9E46 /* Assets.xcassets */; };
 		BF68D9312311755B00DB9E46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF68D92F2311755B00DB9E46 /* LaunchScreen.storyboard */; };
-		BF68D942231175CD00DB9E46 /* B Selected.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BF68D938231175CB00DB9E46 /* B Selected.pdf */; };
-		BF68D943231175CD00DB9E46 /* Y Selected.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BF68D939231175CB00DB9E46 /* Y Selected.pdf */; };
-		BF68D944231175CD00DB9E46 /* O Selected.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BF68D93A231175CB00DB9E46 /* O Selected.pdf */; };
-		BF68D945231175CD00DB9E46 /* G Selected.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BF68D93B231175CC00DB9E46 /* G Selected.pdf */; };
-		BF68D946231175CD00DB9E46 /* Y.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BF68D93C231175CC00DB9E46 /* Y.pdf */; };
-		BF68D947231175CD00DB9E46 /* B.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BF68D93D231175CC00DB9E46 /* B.pdf */; };
-		BF68D948231175CD00DB9E46 /* O.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BF68D93E231175CC00DB9E46 /* O.pdf */; };
-		BF68D949231175CD00DB9E46 /* G.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BF68D93F231175CC00DB9E46 /* G.pdf */; };
-		BF68D94A231175CD00DB9E46 /* R Selected.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BF68D940231175CC00DB9E46 /* R Selected.pdf */; };
-		BF68D94B231175CD00DB9E46 /* R.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BF68D941231175CC00DB9E46 /* R.pdf */; };
+		BF68D94D23117C2300DB9E46 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF68D94C23117C2300DB9E46 /* FavoritesViewController.swift */; };
+		BF68D94F23117C7800DB9E46 /* MapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF68D94E23117C7800DB9E46 /* MapsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BF68D9232311755A00DB9E46 /* cocktailApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cocktailApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF68D9262311755A00DB9E46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BF68D9282311755A00DB9E46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BF68D9282311755A00DB9E46 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		BF68D92B2311755A00DB9E46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BF68D92D2311755B00DB9E46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF68D9302311755B00DB9E46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF68D9322311755B00DB9E46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BF68D938231175CB00DB9E46 /* B Selected.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "B Selected.pdf"; sourceTree = "<group>"; };
-		BF68D939231175CB00DB9E46 /* Y Selected.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Y Selected.pdf"; sourceTree = "<group>"; };
-		BF68D93A231175CB00DB9E46 /* O Selected.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "O Selected.pdf"; sourceTree = "<group>"; };
-		BF68D93B231175CC00DB9E46 /* G Selected.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "G Selected.pdf"; sourceTree = "<group>"; };
-		BF68D93C231175CC00DB9E46 /* Y.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Y.pdf; sourceTree = "<group>"; };
-		BF68D93D231175CC00DB9E46 /* B.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = B.pdf; sourceTree = "<group>"; };
-		BF68D93E231175CC00DB9E46 /* O.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = O.pdf; sourceTree = "<group>"; };
-		BF68D93F231175CC00DB9E46 /* G.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = G.pdf; sourceTree = "<group>"; };
-		BF68D940231175CC00DB9E46 /* R Selected.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "R Selected.pdf"; sourceTree = "<group>"; };
-		BF68D941231175CC00DB9E46 /* R.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = R.pdf; sourceTree = "<group>"; };
+		BF68D94C23117C2300DB9E46 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		BF68D94E23117C7800DB9E46 /* MapsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,19 +59,11 @@
 			isa = PBXGroup;
 			children = (
 				BF68D9262311755A00DB9E46 /* AppDelegate.swift */,
-				BF68D9282311755A00DB9E46 /* ViewController.swift */,
+				BF68D9282311755A00DB9E46 /* SearchViewController.swift */,
 				BF68D92A2311755A00DB9E46 /* Main.storyboard */,
+				BF68D94E23117C7800DB9E46 /* MapsViewController.swift */,
+				BF68D94C23117C2300DB9E46 /* FavoritesViewController.swift */,
 				BF68D92D2311755B00DB9E46 /* Assets.xcassets */,
-				BF68D93D231175CC00DB9E46 /* B.pdf */,
-				BF68D93B231175CC00DB9E46 /* G Selected.pdf */,
-				BF68D93F231175CC00DB9E46 /* G.pdf */,
-				BF68D93A231175CB00DB9E46 /* O Selected.pdf */,
-				BF68D93E231175CC00DB9E46 /* O.pdf */,
-				BF68D940231175CC00DB9E46 /* R Selected.pdf */,
-				BF68D941231175CC00DB9E46 /* R.pdf */,
-				BF68D939231175CB00DB9E46 /* Y Selected.pdf */,
-				BF68D93C231175CC00DB9E46 /* Y.pdf */,
-				BF68D938231175CB00DB9E46 /* B Selected.pdf */,
 				BF68D92F2311755B00DB9E46 /* LaunchScreen.storyboard */,
 				BF68D9322311755B00DB9E46 /* Info.plist */,
 			);
@@ -152,18 +128,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF68D949231175CD00DB9E46 /* G.pdf in Resources */,
-				BF68D944231175CD00DB9E46 /* O Selected.pdf in Resources */,
 				BF68D9312311755B00DB9E46 /* LaunchScreen.storyboard in Resources */,
-				BF68D942231175CD00DB9E46 /* B Selected.pdf in Resources */,
-				BF68D94B231175CD00DB9E46 /* R.pdf in Resources */,
-				BF68D947231175CD00DB9E46 /* B.pdf in Resources */,
-				BF68D94A231175CD00DB9E46 /* R Selected.pdf in Resources */,
-				BF68D945231175CD00DB9E46 /* G Selected.pdf in Resources */,
 				BF68D92E2311755B00DB9E46 /* Assets.xcassets in Resources */,
-				BF68D948231175CD00DB9E46 /* O.pdf in Resources */,
-				BF68D943231175CD00DB9E46 /* Y Selected.pdf in Resources */,
-				BF68D946231175CD00DB9E46 /* Y.pdf in Resources */,
 				BF68D92C2311755A00DB9E46 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -175,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF68D9292311755A00DB9E46 /* ViewController.swift in Sources */,
+				BF68D9292311755A00DB9E46 /* SearchViewController.swift in Sources */,
+				BF68D94D23117C2300DB9E46 /* FavoritesViewController.swift in Sources */,
 				BF68D9272311755A00DB9E46 /* AppDelegate.swift in Sources */,
+				BF68D94F23117C7800DB9E46 /* MapsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
