@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		BF68D9272311755A00DB9E46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF68D9262311755A00DB9E46 /* AppDelegate.swift */; };
-		BF68D9292311755A00DB9E46 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF68D9282311755A00DB9E46 /* SearchViewController.swift */; };
 		BF68D92C2311755A00DB9E46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF68D92A2311755A00DB9E46 /* Main.storyboard */; };
 		BF68D92E2311755B00DB9E46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF68D92D2311755B00DB9E46 /* Assets.xcassets */; };
 		BF68D9312311755B00DB9E46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF68D92F2311755B00DB9E46 /* LaunchScreen.storyboard */; };
 		BF68D94D23117C2300DB9E46 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF68D94C23117C2300DB9E46 /* FavoritesViewController.swift */; };
 		BF68D94F23117C7800DB9E46 /* MapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF68D94E23117C7800DB9E46 /* MapsViewController.swift */; };
+		BF68D951231198D800DB9E46 /* CocktailItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF68D950231198D800DB9E46 /* CocktailItem.swift */; };
+		BF68D953231199A300DB9E46 /* CocktailInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF68D952231199A300DB9E46 /* CocktailInfoController.swift */; };
+		BF68D95523119D5400DB9E46 /* URL+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF68D95423119D5400DB9E46 /* URL+Helpers.swift */; };
+		BF68D9562311A19400DB9E46 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF68D9282311755A00DB9E46 /* SearchViewController.swift */; };
+		BF68D95A2311D82400DB9E46 /* CocktailItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF68D9592311D82400DB9E46 /* CocktailItems.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		BF68D9322311755B00DB9E46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF68D94C23117C2300DB9E46 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
 		BF68D94E23117C7800DB9E46 /* MapsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsViewController.swift; sourceTree = "<group>"; };
+		BF68D950231198D800DB9E46 /* CocktailItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailItem.swift; sourceTree = "<group>"; };
+		BF68D952231199A300DB9E46 /* CocktailInfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailInfoController.swift; sourceTree = "<group>"; };
+		BF68D95423119D5400DB9E46 /* URL+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Helpers.swift"; sourceTree = "<group>"; };
+		BF68D9592311D82400DB9E46 /* CocktailItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailItems.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +74,10 @@
 				BF68D92D2311755B00DB9E46 /* Assets.xcassets */,
 				BF68D92F2311755B00DB9E46 /* LaunchScreen.storyboard */,
 				BF68D9322311755B00DB9E46 /* Info.plist */,
+				BF68D950231198D800DB9E46 /* CocktailItem.swift */,
+				BF68D9592311D82400DB9E46 /* CocktailItems.swift */,
+				BF68D952231199A300DB9E46 /* CocktailInfoController.swift */,
+				BF68D95423119D5400DB9E46 /* URL+Helpers.swift */,
 			);
 			path = cocktailApp;
 			sourceTree = "<group>";
@@ -141,9 +153,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF68D9292311755A00DB9E46 /* SearchViewController.swift in Sources */,
 				BF68D94D23117C2300DB9E46 /* FavoritesViewController.swift in Sources */,
+				BF68D9562311A19400DB9E46 /* SearchViewController.swift in Sources */,
+				BF68D95A2311D82400DB9E46 /* CocktailItems.swift in Sources */,
 				BF68D9272311755A00DB9E46 /* AppDelegate.swift in Sources */,
+				BF68D95523119D5400DB9E46 /* URL+Helpers.swift in Sources */,
+				BF68D953231199A300DB9E46 /* CocktailInfoController.swift in Sources */,
+				BF68D951231198D800DB9E46 /* CocktailItem.swift in Sources */,
 				BF68D94F23117C7800DB9E46 /* MapsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
